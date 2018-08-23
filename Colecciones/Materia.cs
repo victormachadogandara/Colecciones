@@ -11,5 +11,15 @@ namespace Colecciones
         public string Identificador { get; set; }
         public string Nombre { get; set; }
 
+        public Materia()
+        {
+            Nombre = "sexo";
+            Identificador = "123";
+        }
+
+        public Materia (string nombre)
+            {
+            Nombre = nombre;
+            }
     }
 }
